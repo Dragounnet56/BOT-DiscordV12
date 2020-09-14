@@ -3,7 +3,7 @@ BOT DiscordV12 en JavaScript
 
 Voici les étapes pour faire fonctionner le BOT !
 
-            Il faut tout d'abords installer les modules.
+            Il faut tout d'abords installer les modules
 
             Ouvrez votre invite de commande et rendez-vous dans votre dossier:
 
@@ -13,12 +13,12 @@ Installer les modules "discord.js" et "fs".
  - npm i discord.js
  - npm i fs
 
-            Pour modifier le token et le prefix:
+            Pour modifier le token et le prefix
 
 Rendez vous dans le dossier "config", ouvez le fichier "config-exemple.js" et modifié le "TOKENDUBOT" avec votre TOKEN et le "TONPREFIX" avec votre PREFIX.
 Puis, renomez le fichier en "config.js".
 
-            Modifier le channel de LOG dans la commande KICK:
+            Modifier le channel de LOG dans la commande KICK
 
 Rendez vous dans le dossier "commands", ouvre le fichier "KickCommand.js" et modifié le "IDDEVOTRESALONLOG" avec l'ID de votre salon.
 
