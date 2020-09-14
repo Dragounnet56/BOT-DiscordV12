@@ -18,7 +18,7 @@ Installer les modules "discord.js" et "fs".
 Rendez vous dans le dossier "config", ouvez le fichier "config-exemple.js" et modifié le "TOKENDUBOT" avec votre TOKEN et le "TONPREFIX" avec votre PREFIX.
 Puis, renomez le fichier en "config.js".
 
-                                    Modifier le channel de LOG dans la commande KICK
+                                Modifier le channel de LOG dans la commande KICK
 
 Rendez vous dans le dossier "commands", ouvre le fichier "KickCommand.js" et modifié le "IDDEVOTRESALONLOG" avec l'ID de votre salon.
 
