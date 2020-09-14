@@ -1,5 +1,18 @@
 const MESSAGES = {
     COMMANDS: {
+        HELP: {
+            HELP: {
+                name: 'help',
+                aliases: ["helps"],
+                category: "help",
+                description: "Renvoie une liste de commandes ou les informations d'une commande.",
+                cooldown: 3,
+                usage: "<nom_d'une commande>",
+                isUserAdmin: false,
+                permissions: false,
+                args: false
+            }
+        },
         MISC: {
             SAY: {
                 name: 'say',
@@ -13,17 +26,17 @@ const MESSAGES = {
                 args: true
             }
         },
-        HELP: {
-            HELP: {
-                name: 'help',
-                aliases: ["helps"],
-                category: "help",
-                description: "Renvoie une liste de commandes ou les informations d'une commande.",
-                cooldown: 10,
-                usage: "<nom_d'une commande>",
-                isUserAdmin: false,
-                permissions: false,
-                args: false
+        MODERATION: {
+            KICK: {
+                name: 'kick',
+                aliases: ["kicks"],
+                category: "moderation",
+                description: "Permet de kick un utilisateur.",
+                cooldown: 5,
+                usage: '<@user> <raison>',
+                isUserAdmin: true,
+                permissions: true,
+                args: true
             }
         }
     }
