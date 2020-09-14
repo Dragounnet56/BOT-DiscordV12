@@ -1,0 +1,2 @@
+exports.TOKEN = "TOKENDUBOT";
+exports.PREFIX = "TONPREFIX";
