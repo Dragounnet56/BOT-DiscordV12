@@ -5,7 +5,7 @@ Voici les étapes pour faire fonctionner le BOT !
 
                                     Il faut tout d'abords installer les modules
 
-                                Ouvrez votre invite de commande et rendez-vous dans votre dossier
+                            Ouvrez votre invite de commande et rendez-vous dans votre dossier
 
 Ecrivez "npm init" et appuyez sur ENTRER jusce qu'à tout les messages ne sont pas terminés.
 
