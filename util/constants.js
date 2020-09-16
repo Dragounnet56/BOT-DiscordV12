@@ -37,7 +37,29 @@ const MESSAGES = {
                 isUserAdmin: true,
                 permissions: true,
                 args: true
-            }
+            },
+            BAN: {
+                name: 'ban',
+                aliases: ["bans"],
+                category: "moderation",
+                description: "Permet de ban un utilisateur.",
+                cooldown: 3,
+                usage: '<@user> <raison>',
+                isUserAdmin: true,
+                permissions: true,
+                args: true
+            },
+            UNBAN: {
+                name: 'unban',
+                aliases: ["unbans"],
+                category: "moderation",
+                description: "Permet d'unban un utilisateur.",
+                cooldown: 3,
+                usage: '<user_id>',
+                isUserAdmin: false,
+                permissions: true,
+                args: true
+            }   
         }
     }
 };
