@@ -7,7 +7,7 @@ const MESSAGES = {
                 category: "help",
                 description: "Renvoie une liste de commandes ou les informations d'une commande.",
                 cooldown: 3,
-                usage: "<nom_d'une commande>",
+                usage: "<nom_d'une_commande>",
                 isUserAdmin: false,
                 permissions: false,
                 args: false
