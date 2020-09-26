@@ -19,7 +19,7 @@ const MESSAGES = {
                 aliases: ["says", "repeart", "rep"],
                 category: "misc",
                 description: "Permet de faire parler le bot",
-                cooldown: 10,
+                cooldown: 3,
                 usage: "<votre_message>",
                 isUserAdmin: false,
                 permissions: false,
@@ -32,7 +32,7 @@ const MESSAGES = {
                 aliases: ["kicks"],
                 category: "moderation",
                 description: "Permet de kick un utilisateur.",
-                cooldown: 5,
+                cooldown: 3,
                 usage: '<@user> <raison>',
                 isUserAdmin: true,
                 permissions: true,
@@ -70,6 +70,19 @@ const MESSAGES = {
                 isUserAdmin: false,
                 permissions: true,
                 args: true
+            }
+        },
+        INFO: {
+            BOTINFO: {
+                name: 'infobot',
+                aliases: ["infobots", "botinfo", "botinfos"],
+                category: "info",
+                description: "Permet d'avoir les informations du BOT.",
+                cooldown: 3,
+                usage: '',
+                isUserAdmin: false,
+                permissions: false,
+                args: false
             }
         }
     }
