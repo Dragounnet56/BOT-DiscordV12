@@ -59,7 +59,18 @@ const MESSAGES = {
                 isUserAdmin: false,
                 permissions: true,
                 args: true
-            }   
+            },
+            CLEAR: {
+                name: 'clear',
+                aliases: ["clears", "purge", "purges"],
+                category: "moderation",
+                description: "Supprime un nombre de message spécifié.",
+                cooldown: 3,
+                usage: '<nombre_de_message>',
+                isUserAdmin: false,
+                permissions: true,
+                args: true
+            }
         }
     }
 };

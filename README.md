@@ -21,6 +21,8 @@ Puis, renomez le fichier en "config.js".
                                 Modifier le channel de LOG dans les commandes
 
 Rendez vous dans le dossier "commands" puis dans le dossier "Moderation", ouvre le fichier "KickCommand.js" et modifié le "IDDEVOTRESALONLOG" avec l'ID de votre salon.
-Et faîtes pareil pour les commandes "UnBanCommand.js" et "BanCommand.js".
+Et faîtes pareil pour les commandes "UnBanCommand.js", "BanCommand.js" et "ClearCommand.js".
 
 Quand tout celà est fait, double cliquez sur "start.bat".
+
+Merci d'avoir téléchargé mon exemple de BOT et amusez-vous bien !
