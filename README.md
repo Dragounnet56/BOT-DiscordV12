@@ -27,6 +27,8 @@ Et faîtes pareil pour les commandes "UnBanCommand.js", "BanCommand.js", "ClearC
 
 Puis, rendez vous dans le fichier "BotInfoCommand.js" dans le dossier "Info", modifier "IDDEVOTREBOT" par l'ID de votre BOT.
 
+                                        Lancement de votre BOT
+
 Quand tout celà est fait, double cliquez sur "start.bat".
 
 Merci d'avoir téléchargé mon exemple de BOT et amusez-vous bien !
