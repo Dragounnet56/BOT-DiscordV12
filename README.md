@@ -23,7 +23,7 @@ Puis, renomez le fichier en "config.js".
 Rendez vous dans le dossier "commands" puis dans le dossier "Moderation", ouvre le fichier "KickCommand.js" et modifié le "IDDEVOTRESALONLOG" avec l'ID de votre salon.
 Et faîtes pareil pour les commandes "UnBanCommand.js", "BanCommand.js", "ClearCommand.js" et "BotInfoCommand.js".
 
-                        Modifier l'ID de votre BOT dans le fichier BotInfoCommand.js
+                                Modifier l'ID de votre BOT dans le fichier BotInfoCommand.js
 
 Puis, rendez vous dans le fichier "BotInfoCommand.js" dans le dossier "Info", modifier "IDDEVOTREBOT" par l'ID de votre BOT.
 
