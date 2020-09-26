@@ -1,7 +1,7 @@
 const { MessageEmbed } = require("discord.js");
 const { MESSAGES } = require("../../util/constants.js");
 
-module.exports.run = async (bot, message, args, bdd) => {
+module.exports.run = async (bot, message, args) => {
   if (isNaN(args[0]) || (args[0] < 1 || args[0] > 100)) return message.reply("il faut spécifier un ***nombre*** entre 1 et 100.");
 
   const messages = await message.channel.messages.fetch({
