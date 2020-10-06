@@ -9,9 +9,11 @@ Voici les étapes pour faire fonctionner le BOT !
 
 Ecrivez "npm init" et appuyez sur ENTRER jusce qu'à tout les messages ne sont pas terminés.
 
-Installer les modules "discord.js" et "fs".
+Installer les modules "discord.js", "fs", "ms" et "os".
  - npm i discord.js
  - npm i fs
+ - npm i ms
+ - npm i os
 
                                     Pour modifier le token et le prefix
 
