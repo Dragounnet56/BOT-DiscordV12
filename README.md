@@ -34,3 +34,5 @@ Puis, rendez vous dans le fichier "BotInfoCommand.js" dans le dossier "Info", mo
 Quand tout celà est fait, double cliquez sur "start.bat".
 
 Merci d'avoir téléchargé mon exemple de BOT et amusez-vous bien !
+
+Pour tout soucis, mon discord: ϻ¢Đυ¢к₮Đϻ#5961
